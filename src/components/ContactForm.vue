@@ -99,7 +99,7 @@ export default {
                 contactFormSchema,
             }; 
         },
-        methods: { 
+        methods: {
             submitContact() { 
                 this.$emit("submit:contact", this.contactLocal); 
             },
